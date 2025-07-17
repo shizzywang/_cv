@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import MarkdownRenderer from './components/MarkdownRenderer';
 import ScrollProgressIndicator from './components/ScrollProgressIndicator';
+import PasswordProtection from './components/PasswordProtection';
 
 export default function App() {
   const [markdownContent, setMarkdownContent] = useState('');
@@ -46,20 +47,22 @@ export default function App() {
   }
 
   return (
-    <div className="bg-primary-background text-primary-text font-sans min-h-screen leading-relaxed">
-      <ScrollProgressIndicator />
-      <div 
-        className="cv-container"
-        style={{
-          maxWidth: '65rem',
-          margin: '0 auto',
-          padding: '4rem 2rem',
-          width: '100%',
-          boxSizing: 'border-box'
-        }}
-      >
-        <MarkdownRenderer content={markdownContent} />
+    <PasswordProtection>
+      <div className="bg-primary-background text-primary-text font-sans min-h-screen leading-relaxed">
+        <ScrollProgressIndicator />
+        <div 
+          className="cv-container"
+          style={{
+            maxWidth: '65rem',
+            margin: '0 auto',
+            padding: '4rem 2rem',
+            width: '100%',
+            boxSizing: 'border-box'
+          }}
+        >
+          <MarkdownRenderer content={markdownContent} />
+        </div>
       </div>
-    </div>
+    </PasswordProtection>
   );
 }
