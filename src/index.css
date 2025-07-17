@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Geologica', ui-sans-serif, system-ui, sans-serif;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code, .font-mono {
+  font-family: 'Fira Mono', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+}
+
+html, body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Premium scrolling - senior engineer approach */
+html {
+  scroll-padding-top: 2rem;
+}
+
+/* Optimize scroll performance */
+body {
+  -webkit-overflow-scrolling: touch; /* iOS momentum scrolling */
+  /* Let native scrolling handle manual scrolling */
+}
+
+/* Enhanced scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(243, 244, 246, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d1d5db 0%, #9ca3af 100%);
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #9ca3af 0%, #6b7280 100%);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d1d5db rgba(243, 244, 246, 0.5);
+}
+
+/* Enhanced scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(243, 244, 246, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d1d5db 0%, #9ca3af 100%);
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #9ca3af 0%, #6b7280 100%);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d1d5db rgba(243, 244, 246, 0.5);
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  html, body {
+    scroll-behavior: auto;
+  }
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white !important;
+    color: #1a1a1a !important;
+  }
+  
+  main {
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  a {
+    color: #1a1a1a !important;
+    text-decoration: underline !important;
+  }
+  
+  /* Ensure proper spacing in print */
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+  
+  li {
+    page-break-inside: avoid;
+  }
+}
+
+/* Premium custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(243, 244, 246, 0.8);
+  border-radius: 8px;
+  margin: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d1d5db 0%, #9ca3af 100%);
+  border-radius: 8px;
+  border: 2px solid rgba(243, 244, 246, 0.8);
+  transition: all 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #9ca3af 0%, #6b7280 100%);
+  transform: scale(1.05);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(180deg, #6b7280 0%, #4b5563 100%);
+}
+
+/* Firefox scrollbar styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d1d5db rgba(243, 244, 246, 0.8);
+}
+
+/* Additional typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  font-feature-settings: "liga" 1, "kern" 1;
+}
+
+/* Scroll Progress Indicator Styling */
+.scroll-progress-indicator {
+  background: rgba(243, 244, 246, 0.8);
+  backdrop-filter: blur(4px);
+}
+
+.scroll-progress-indicator .progress-fill {
+  background: linear-gradient(90deg, #fbbf24 0%, #f59e0b 100%);
+  box-shadow: 0 0 8px rgba(251, 191, 36, 0.3);
+}
+
+/* Ensure serif fonts are applied to headers */
+h1.font-serif, h2.font-serif, h3.font-serif {
+  font-family: 'Instrument Sans', Georgia, serif !important;
+  font-weight: 600 !important;
+}
+
+/* Force spacing for company names and education institutions */
+h3.font-serif {
+  margin-top: 5.5rem !important;
+  margin-bottom: 0.25rem !important;
+  font-size: 2rem !important;
+  line-height: 1.1 !important;
+}
+
+/* Force spacing for section headers */
+h2.font-serif {
+  margin-top: 6rem !important;
+}
+
+/* Add extra spacing after the main job description lists only */
+ul.font-sans:not(ul ul), ol.font-sans:not(ol ol) {
+  margin-bottom: 3rem !important;
+}
+
+/* Education section specific styling */
+.education-institution-block {
+  margin-bottom: 2rem !important;
+}
+
+.education-institution-block:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Company section specific styling */
+.company-block {
+  margin-bottom: 1.5rem !important;
+}
+
+.company-block:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Remove conflicting education spacing rules */
+.education-section + h3.font-serif {
+  margin-top: 2rem !important;
+}
+
+/* Override ALL paragraph margins when followed by lists in work experience */
+h3.font-serif + p + ul {
+  margin-top: 0.25rem !important;
+}
+
+h3.font-serif + p:has(+ ul) {
+  margin-bottom: 0.5rem !important;
+}
+
+/* Fallback for browsers that don't support :has() */
+h3.font-serif + p {
+  margin-bottom: 0.5rem !important;
+}
+
+/* Portfolio Highlights specific styling */
+.portfolio-section + ul {
+  text-align: left !important;
+  margin-left: 0.25rem !important;
+}
+
+/* Serif font improvements for headers */
+.font-serif {
+  font-family: 'Instrument Sans', Georgia, serif !important;
+  font-feature-settings: "liga" 1, "kern" 1, "dlig" 1;
+  font-variant-numeric: oldstyle-nums;
+}
+
+/* Better list styling */
+ul, ol {
+  text-align: left;
+}
+
+/* Improved link styling */
+a {
+  text-decoration-skip-ink: auto;
+}
+
+/* Ensure proper content width and prevent edge running */
+.max-w-4xl {
+  max-width: 65rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Force proper padding on all screen sizes */
+@media (max-width: 640px) {
+  .max-w-4xl {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .max-w-4xl {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .max-w-4xl {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  .max-w-4xl {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
+}
+
+/* Ensure body and html don't interfere */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  /* Premium scroll enhancements */
+  overflow-x: hidden;
+}
+
+/* Enhanced scroll snap for better UX */
+body {
+  scroll-snap-type: y proximity;
+}
+
+/* Smooth scroll to top functionality */
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1000;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* CV Container styles */
+.cv-container {
+  max-width: 65rem !important;
+  margin: 0 auto !important;
+  padding: 4rem 2rem !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+@media (min-width: 768px) {
+  .cv-container {
+    padding: 4rem 3rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cv-container {
+    padding: 4rem 4rem !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cv-container {
+    padding: 4rem 5rem !important;
+  }
+}
