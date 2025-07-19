@@ -6,7 +6,7 @@ const PasswordProtection = ({ children }) => {
   const [error, setError] = useState('');
 
   // Simple password - you can change this
-  const CORRECT_PASSWORD = 'cv2024';
+  const CORRECT_PASSWORD = 'cv2025';
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -16,6 +16,14 @@ const PasswordProtection = ({ children }) => {
     } else {
       setError('Incorrect password');
       setPassword('');
+    }
+  };
+
+  const handleInputChange = (e) => {
+    setPassword(e.target.value);
+    // Clear error when user starts typing
+    if (error) {
+      setError('');
     }
   };
 
@@ -33,34 +41,66 @@ const PasswordProtection = ({ children }) => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4">
-      <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full">
-        <div className="text-center mb-8">
-          <h1 className="text-2xl font-bold text-gray-800 mb-2">CV Access</h1>
-          <p className="text-gray-600">Enter password to view CV</p>
-        </div>
-        
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <input
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              placeholder="Enter password"
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              autoFocus
-            />
+      <div className="bg-white rounded-xl shadow-xl p-12 w-96">
+        <form onSubmit={handleSubmit}>
+          {/* Title and input container */}
+          <div className="mb-8">
+            <h1 className="text-4xl font-semibold text-gray-800 mb-4" style={{ fontFamily: 'Instrument Sans, Georgia, serif' }}>
+              Ian's CV
+            </h1>
+            
+            <div className="flex items-center gap-3">
+              {/* Error icon container - separate from input */}
+              <div className="w-5 h-5 flex items-center justify-center">
+                {error && (
+                  <svg 
+                    width="20" 
+                    height="20" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="#dc2626" 
+                    strokeWidth="2.5" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round"
+                    className="animate-pulse transition-opacity duration-300 ease-in-out"
+                  >
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                )}
+              </div>
+              
+              <input
+                type="password"
+                value={password}
+                onChange={handleInputChange}
+                placeholder="password"
+                className={`flex-1 py-4 text-xl outline-none rounded-lg transition-all duration-300 ease-in-out border-0 focus:ring-0 ${
+                  error 
+                    ? 'bg-red-50 focus:bg-red-50' 
+                    : 'bg-gray-100 focus:bg-white'
+                }`}
+                style={{ 
+                  fontFamily: 'Geologica, ui-sans-serif, system-ui, sans-serif',
+                  padding: '0',
+                  boxSizing: 'border-box',
+                  textIndent: '0'
+                }}
+                autoFocus
+              />
+            </div>
           </div>
           
-          {error && (
-            <div className="text-red-500 text-sm text-center">{error}</div>
-          )}
-          
-          <button
-            type="submit"
-            className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            Access CV
-          </button>
+          {/* View button aligned to the right */}
+          <div className="flex justify-end mt-8">
+            <button
+              type="submit"
+              className="bg-gray-100 hover:bg-gray-200 text-gray-800 py-4 px-8 rounded-2xl transition-all duration-200 font-bold text-2xl shadow-sm hover:shadow-md border-0"
+              style={{ fontFamily: 'Instrument Sans, Georgia, serif' }}
+            >
+              View
+            </button>
+          </div>
         </form>
       </div>
     </div>

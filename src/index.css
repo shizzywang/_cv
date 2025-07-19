@@ -160,6 +160,22 @@ h1, h2, h3, h4, h5, h6 {
   font-feature-settings: "liga" 1, "kern" 1;
 }
 
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
 /* Scroll Progress Indicator Styling */
 .scroll-progress-indicator {
   background: rgba(243, 244, 246, 0.8);

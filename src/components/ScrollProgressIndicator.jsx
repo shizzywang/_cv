@@ -56,7 +56,7 @@ const ScrollProgressIndicator = () => {
         className="h-full"
         style={{ 
           width: `${progress}%`,
-          backgroundColor: '#7BBDAA',
+          backgroundColor: '#FEBE29',
           opacity: progress > 0 ? 1 : 0,
           transition: 'opacity 0.1s ease-out'
         }}
