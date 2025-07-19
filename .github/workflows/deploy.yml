@@ -33,6 +33,8 @@ jobs:
         run: npm ci
 
       - name: Build
+        env:
+          VITE_CV_PASSWORD: ${{ secrets.VITE_CV_PASSWORD }}
         run: npm run build
 
       - name: Setup Pages

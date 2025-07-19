@@ -5,8 +5,8 @@ const PasswordProtection = ({ children }) => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  // Simple password - you can change this
-  const CORRECT_PASSWORD = 'cv2025';
+  // Get password from environment variable, fallback to a default for development
+  const CORRECT_PASSWORD = import.meta.env.VITE_CV_PASSWORD || 'cv2025';
 
   const handleSubmit = (e) => {
     e.preventDefault();
