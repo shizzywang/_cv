@@ -271,6 +271,23 @@ a {
   text-decoration-skip-ink: auto;
 }
 
+/* Prevent mobile browser auto-generated links */
+a:not([href]) {
+  pointer-events: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Override any auto-generated links that might slip through */
+a[href^="tel:"], 
+a[href^="mailto:"], 
+a[href^="maps:"], 
+a[href^="geo:"] {
+  pointer-events: none;
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Ensure proper content width and prevent edge running */
 .max-w-4xl {
   max-width: 65rem !important;
@@ -314,6 +331,9 @@ html, body {
   width: 100% !important;
   /* Premium scroll enhancements */
   overflow-x: hidden;
+  /* Disable mobile browser auto-link detection */
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* Enhanced scroll snap for better UX */
