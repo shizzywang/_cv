@@ -124,20 +124,20 @@ _Jan 2014 – Nov 2014_
 **Co-Founder**  
 _Oct 2012 – Nov 2013_
 
-- Learned how different it feels to sell something you've made
+- Learned how different it feels to sell something you've made.
 - Co-designed and helped build the kitchen layout for operational efficiency in a small space.
 - Operated a family-run Sri Lankan food business in a converted shipping container at Chester Lakes.
 - Created the brand identity, including logo and menu design.
-- Helped design the menu working with Mum who is an expert in making people say yum
+- Helped design the menu working with Mum who's cooking is superb.
 
 ### Deva Heating and Plumbing
 
 **Labourer**  
 _Jan 2011 – Nov 2013_
 
-- Assisted with installations and repairs on domestic plumbing and heating projects
-- Worked on the house of a producer for Blue Planet, learned so much about design from her, her new house and everything in it was beautiful and told a story and I got to watch her restore it, her and the painters showed me a bar for art
-- Developed efficiency and prioritization skills working under a mentor managing multiple urgent client demands
+- Assisted with installations and repairs on domestic plumbing and heating projects.
+- Worked on the house of a producer for Blue Planet, learned so much about design from her, her new house and everything in it was beautiful and told a story and I got to watch her restore it, her and the painters showed me a bar for art.
+- Developed efficiency and prioritization skills working under a mentor managing multiple urgent client demands.
 
 ### Lessgo Ltd
 
@@ -159,16 +159,18 @@ _May 2010 – Jun 2013_
 - Delivered service across multiple roles, gaining deep understanding of customer experience and operational workflows.
 - Learned how design in environment, layout, and presentation impacts user satisfaction and business performance.
 - Observed large-scale brand revamp, developing insight into change management and standards implementation.
+- Learned the art of culture in the workplace here.
 
 ### Hugo Boss (Tessuti Group)
 
 **Sales Assistant**  
 _Dec 2007 – Aug 2010_
 
-- Gained first hand experience watching the owners family and my manager work closely to grow the business online
-- Observed high-level business strategy during expansion and acquisition (eventually sold to JD Sports)
+- Gained first hand experience watching the owners family and my manager work closely to grow the business online.
+- Observed high-level business strategy during expansion and acquisition (eventually sold to JD Sports).
 - Delivered premium customer experiences and drove sales through expert client engagement and brand presentation.
 - Supported new store launches, including event coordination, franchise compliance, and local business partnerships.
+- I was like my managers Padawan (my manager being a master in service, good sales and fun at work).
 
 ### Grosvenor Pulford Hotel and Spa
 
@@ -176,7 +178,7 @@ _Dec 2007 – Aug 2010_
 _May 2007 – Dec 2007_
 
 - Delivered high-end service at a luxury venue, sharpening communication and client management under pressure.
-- Gained early insight into operational design by observing owners structure workflows for efficiency.
+- Gained early insight into operational design by observing owners structure workflows and share friendship with staff for efficiency.
 - Learned resilience and adaptability in high-stress kitchen environments, shaping a systems-thinking approach to problem-solving.
 
 ### WHSmith
@@ -185,21 +187,21 @@ _May 2007 – Dec 2007_
 _Sep 2006 – May 2007_
 
 - Built strong customer service foundations
-- Learned how product presentation and diversification impacts sales
-- Handled retail duties including till operation and customer service
-- First experiences of groups of strangers coming together to work
+- Learned how product presentation and diversification impacts sales.
+- Handled retail duties including till operation and customer service.
+- First experiences of groups of strangers coming together to work.
 
 ### Robert Allsop (Private Estate)
 
 **Labourer**  
 _Jun 2005 – Jun 2011_
 
-- Learned to stay patient when solving messy problems
+- Learned to stay patient when solving messy problems.
 - Learned the true importance of keeping workspaces tidy and functional.
 - Saw how good design in a garage or smallholding makes life easier—everything had its place.
 - As he got older, helped him deal with Parkinson’s—lifting, supporting, he had a few falls where I was the first to find him.
-- Helped with all sorts: cutting grass, walking dogs, cleaning cars, and odd jobs around the estate.
-- Assisted in building things, basic joinery, and mechanical repairs.
+- Helped with all sorts: cutting grass, walking dogs, cleaning cars, chopping logs and odd jobs around the estate.
+- Assisted in his construction projects, joinery, and mechanical repairs.
 
 ### Richard Vaughan Davies of Vaughan Davies (Mold Property)
 
@@ -207,24 +209,24 @@ _Jun 2005 – Jun 2011_
 _Jan 2004 – Oct 2004_
 
 - Helped my dad construct a wooden bridge from the owners house over the River Alyn to his car park.
-- Learned the difference between using tools and using tools properly
-- Discovered the importance of well designed tools (like chain blocks!)
+- Learned the difference between using tools and using tools properly.
+- Discovered the importance of well designed tools (like chain blocks!).
 
 ### Chester Standard / Chronicle
 
 **Newspaper Delivery**  
 _Jun 2003 – Sep 2005_
 
-- Delivered newspapers
-- Sorted leaflets into newspapers
+- Delivered newspapers.
+- Sorted leaflets into newspapers.
 
 ### Pierce Farms
 
 **Milk Delivery Assistant**  
 _Nov 2002 – Jun 2003_
 
-- 4am Starts
-- The owner Mrs Pierce always made time to speak to customers & ensured sweet coffee and buttery toast before each shift
+- 4am Starts.
+- The owner Mrs Pierce always made time to speak to customers & ensured sweet coffee and buttery toast before each shift.
 
 ## Education
 
