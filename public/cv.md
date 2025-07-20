@@ -7,7 +7,7 @@
 <br/>
 **UX/Product Designer & Builder** with 5+ years experience delivering SaaS and government-backed platforms.
 
-My non-traditional career path gives me a unique perspective on design and software: I’ve worked across industries, understanding tools and the people and workflows behind them in every form: software, hardware, and physical systems.
+My non-traditional career path gives me a unique perspective on design and software. I’ve worked across industries, understanding tools and the people and workflows behind them in every form: software, hardware, and physical systems.
 
 My portfolio includes government-backed projects like **Talk English** (led by Manchester City Council and supported by the Department for Communities and Local Government) and **Northcoders Learn to Code**, a platform I designed as both the first touchpoint for new students and a core system for delivering the bootcamp curriculum.
 
@@ -149,6 +149,7 @@ _Oct 2010 – Jun 2013_
 - Designed initial branding and UX prototypes; recruited a front-end developer to improve design execution.
 - Managed budgeting and engaged consultancies for project scoping, gaining hands-on experience in cost modeling and vendor management.
 - Learned critical lessons in fundraising and runway management after failing to secure capital—insights that shaped my approach to future product development.
+- [Lessgo Ltd](https://find-and-update.company-information.service.gov.uk/company/07416281)
 
 ### Mitchells & Butlers
 
