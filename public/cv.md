@@ -225,7 +225,7 @@ _Nov 2002 – Jun 2003_
 - 4am Starts
 - The owner Mrs Pierce always made time to speak to customers & ensured sweet coffee and buttery toast before each shift
 
-## 🎓 Education
+## Education
 
 ### Northcoders
 
