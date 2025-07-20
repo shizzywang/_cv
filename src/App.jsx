@@ -1,32 +1,31 @@
 import React, { useState, useEffect } from 'react';
-import MarkdownRenderer from './components/MarkdownRenderer';
 import ScrollProgressIndicator from './components/ScrollProgressIndicator';
 
 export default function App() {
-  const [markdownContent, setMarkdownContent] = useState('');
+  const [htmlContent, setHtmlContent] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const loadMarkdownContent = async () => {
+    const loadHtmlContent = async () => {
       try {
         // Use the correct path based on the base URL
         const baseUrl = import.meta.env.BASE_URL || '/';
-        const response = await fetch(`${baseUrl}cv.md`);
+        const response = await fetch(`${baseUrl}cv.html`);
         if (!response.ok) {
-          throw new Error(`Failed to load markdown: ${response.status}`);
+          throw new Error(`Failed to load CV: ${response.status}`);
         }
         const content = await response.text();
-        setMarkdownContent(content);
+        setHtmlContent(content);
       } catch (err) {
-        console.error('Error loading markdown:', err);
+        console.error('Error loading CV:', err);
         setError(err.message);
       } finally {
         setLoading(false);
       }
     };
 
-    loadMarkdownContent();
+    loadHtmlContent();
     }, []);
 
 
@@ -59,9 +58,8 @@ export default function App() {
           width: '100%',
           boxSizing: 'border-box'
         }}
-      >
-        <MarkdownRenderer content={markdownContent} />
-      </div>
+        dangerouslySetInnerHTML={{ __html: htmlContent }}
+      />
     </div>
   );
 }
