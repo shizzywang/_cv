@@ -227,7 +227,7 @@ _Jun 2003 – Sep 2005_
 _Nov 2002 – Jun 2003_
 
 - 4am Starts.
-- The owner Mrs Pierce always made time to speak to customers & ensured sweet coffee and buttery toast before each shift.
+- The owner Mrs Pierce always made time to speak to customers & ensured sweet coffee and buttery toast before each shift. 
 
 ## Education
 
