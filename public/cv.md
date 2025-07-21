@@ -72,7 +72,7 @@ _Nov 2019 – Nov 2025_
 
 - **The Idol – Dorris**
   - Designed and co-developed a reusable chatbot builder for The Idol, the fintech platform powering major brands such as GoCompare, Compare the Market, and Legal & General.
-  - Transformed an initial brief for a simple chatbot into a full visual CMS canvas for building and managing conversational flows, integrated with Dialogflow\*\* for Natural Language Processing.
+  - Transformed an initial brief for a simple chatbot into a full visual CMS canvas for building and managing conversational flows, integrated with Dialogflow for Natural Language Processing.
   - Enabled non-technical editors to create, test, and deploy white-labeled chatbots without developer support, significantly reducing build time and scaling across multiple insurance products.
   - Initially hired as a Junior Engineer but pivoted to lead product design responsibilities due to team needs.
   - [Dev Incubator demo video](https://youtu.be/VOK3noTXXjk?si=a5ewoU-TH97GET4z)
