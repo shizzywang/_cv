@@ -29,12 +29,12 @@ _Nov 2024 – Present_
 ### Northcoders
 
 **Lead Product Designer & Full Stack Software Engineer**  
-_Nov 2019 – Nov 2025_
+_Nov 2019 – Nov 2024_
 
 - **Northcoders Learn To Code Platform**
 
   - Designed from inception, creating a scalable design system that supports nationwide bootcamp delivery.
-  - Built UX/UI for student onboarding, assessment, interactive learning modules, and mentor/admin dashboards—core to delivering all bootcamp content.
+  - Built UX/UI for student onboarding, assessment, interactive learning modules, and ga mentor/admin dashboards—core to delivering all bootcamp content.
   - [Northcoders L2C](https://l2c.northcoders.com)
 
 #### Led end-to-end design for external client products:
@@ -94,6 +94,7 @@ _Sep 2016 – Dec 2016_
 
 - Designed and coded marketing emails, managed CRM data, and optimized campaign performance.
 - Created digital ads and website banners, applying brand consistency and visual design principles.
+- First introduced to a/b testing and configuring pixels to generate sales
 - Secured the role after creating a spec campaign for Aldi pitched to McCann, which led to a referral from a managing partner to BuyAssociation’s leadership.
   - [Aldi Ad](https://youtu.be/C2WVeX1PWAY?si=PZc7HUUNyCrBAZNQ)
 
@@ -128,7 +129,7 @@ _Oct 2012 – Nov 2013_
 - Co-designed and helped build the kitchen layout for operational efficiency in a small space.
 - Operated a family-run Sri Lankan food business in a converted shipping container at Chester Lakes.
 - Created the brand identity, including logo and menu design.
-- Helped design the menu working with Mum who's cooking is superb.
+- Helped design the menu working with Mum whose cooking is superb.
 
 ### Deva Heating and Plumbing
 
