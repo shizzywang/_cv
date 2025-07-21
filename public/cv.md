@@ -18,13 +18,13 @@ My portfolio includes government-backed projects like **Talk English** (led by M
 **Founder, Product Designer & Developer**  
 _Nov 2024 – Present_
 
-- **Designed and built Stack**, a personal productivity app combining note-taking, task management, and AI assistance, available on iOS and Android.
-- **Launched first beta** (51 users) and currently developing **v2 with improved UX, AI-driven summarization, and semantic search via vector embeddings**.
-- Integrated **OpenAI API** for natural language tasks, summarization, and context-aware recommendations.
-- Implemented **Flutter frontend** and **Firebase backend**, including Firestore, Authentication, and cloud functions for AI logic.
-- Developed **AI prompt strategies** and **vector store workflows** for personalized, context-aware responses.
-- Built and deployed **landing page**: [Stack](https://shizzywang.github.io/stack-legal/).
-- Experience spans **end-to-end product ownership**: UX/UI design, app development, backend architecture, AI integration, and user onboarding.
+- Designed and built Stack, a personal productivity app combining note-taking, task management, and AI assistance, available on iOS and Android.
+- Launched first beta (51 users) and currently developing v2 with improved UX, AI-driven summarization, and semantic search via vector embeddings.
+- Integrated OpenAI API for natural language tasks, summarization, and context-aware recommendations.
+- Implemented Flutter frontend and Firebase backend, including Firestore, Authentication, and cloud functions for AI logic.
+- Developed AI prompt strategies and vector store workflows for personalized, context-aware responses.
+- Built and deployed landing page: [Stack](https://shizzywang.github.io/stack-legal/).
+- Experience spans end-to-end product ownership: UX/UI design, app development, backend architecture, AI integration, and user onboarding.
 
 ### Northcoders
 
@@ -37,7 +37,7 @@ _Nov 2019 – Nov 2025_
   - Built UX/UI for student onboarding, assessment, interactive learning modules, and mentor/admin dashboards—core to delivering all bootcamp content.
   - [Northcoders L2C](https://l2c.northcoders.com)
 
-- Led end-to-end design for external client products:
+#### Led end-to-end design for external client products:
 
 - **Talk English**
 
@@ -71,7 +71,7 @@ _Nov 2019 – Nov 2025_
   - Delivered responsive UI and intuitive navigation to enhance usability for both employers and students.
 
 - **The Idol – Dorris**
-  - Designed and co-developed a reusable chatbot builder for The Idol, the fintech platform powering major brands such as **GoCompare, Compare the Market, and Legal & General**.
+  - Designed and co-developed a reusable chatbot builder for The Idol, the fintech platform powering major brands such as GoCompare, Compare the Market, and Legal & General.
   - Transformed an initial brief for a simple chatbot into a full visual CMS canvas for building and managing conversational flows, integrated with Dialogflow\*\* for Natural Language Processing.
   - Enabled non-technical editors to create, test, and deploy white-labeled chatbots without developer support, significantly reducing build time and scaling across multiple insurance products.
   - Initially hired as a Junior Engineer but pivoted to lead product design responsibilities due to team needs.
