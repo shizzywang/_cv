@@ -18,11 +18,17 @@ My portfolio includes government-backed projects like **Talk English** (led by M
 **Founder, Product Designer & Developer**  
 _Nov 2024 – Present_
 
-- Designed and built Stack, a personal productivity app combining note-taking, task management, and AI assistance, available on iOS and Android.
-- Launched first beta (51 users) and currently developing v2 with improved UX, AI-driven summarization, and semantic search via vector embeddings.
-- Integrated OpenAI API for natural language tasks, summarization, and context-aware recommendations.
+Stack is a modern notes app. Your own scroll feed space to write notes, save media, and organise it all however you want.
+
+It is also the place to arrange the material behind an idea (images, audio, clips, references, research, and words) and turn it into structured context and instructions for a computer to act on.
+
+Stack moves us beyond the chat interface. In a space where text becomes simple to organise, Agency is manifestable.
+
+- Designed and built Stack end to end for iOS and Android.
+- Launched first beta (51 users) and currently developing v2 with improved UX, AI-driven summarisation, and semantic search via vector embeddings.
+- Integrated OpenAI API for natural language tasks, summarisation, and context-aware recommendations.
 - Implemented Flutter frontend and Firebase backend, including Firestore, Authentication, and cloud functions for AI logic.
-- Developed AI prompt strategies and vector store workflows for personalized, context-aware responses.
+- Developed AI prompt strategies and vector store workflows for personalised, context-aware responses.
 - Built and deployed landing page: [Stack](https://shizzywang.github.io/stack-legal/).
 - Experience spans end-to-end product ownership: UX/UI design, app development, backend architecture, AI integration, and user onboarding.
 
