@@ -24,13 +24,13 @@ It is also the place to arrange the material behind an idea (images, audio, clip
 
 Stack moves us beyond the chat interface. In a space where text becomes simple to organise, Agency is manifestable.
 
-- Designed and built Stack end to end for iOS and Android.
-- Launched first beta (51 users) and currently developing v2 with improved UX, AI-driven summarisation, and semantic search via vector embeddings.
-- Integrated OpenAI API for natural language tasks, summarisation, and context-aware recommendations.
-- Implemented Flutter frontend and Firebase backend, including Firestore, Authentication, and cloud functions for AI logic.
-- Developed AI prompt strategies and vector store workflows for personalised, context-aware responses.
-- Built and deployed landing page: [Stack](https://shizzywang.github.io/stack-legal/).
-- Experience spans end-to-end product ownership: UX/UI design, app development, backend architecture, AI integration, and user onboarding.
+- Designed and built Stack end to end in Flutter for iOS, Android and web: a personal organisation OS (stacks, branches, labels, threads) where curated context becomes action through chat and a dedicated Agent desk.
+- Invented the Agent desk model so a hosted agency can file plans, research, shopping and coding work into a write-safe workspace with attention labels, without rewriting the user’s own organisation.
+- Built a general-agent runtime on private GCP VMs running OpenClaw and Chromium (no public IP, VPC isolation, on-demand wake), with browse evidence gates so “Done” requires real tool results, not model narration.
+- Designed Ultra as diversity-before-compression: independent planning harnesses across frontier models, provenance-aware merge into one execution contract, and protected tests the builder cannot weaken (pre-launch / waitlist).
+- Designed agent commerce for trust: structured browse vs buy, options on the desk not a chat wall, Agent Pay with merchant-confirmed paid only, and payment credentials kept out of the model path.
+- Own interaction design and systems engineering as a solo founder, including custom navigation (rotating HomeButton, drag-to-chat, swipe-select), a full design system with GPU shaders, billing, guest isolation and security boundaries between app and agent planes.
+- [Stack](https://shizzywang.github.io/stack-legal/)
 
 ### Northcoders
 
