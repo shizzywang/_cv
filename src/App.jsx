@@ -27,11 +27,16 @@ function CrestHomeLink() {
       }}
     >
       <img
-        src={`${baseUrl}crest.svg`}
-        alt=""
-        width={96}
-        height={71}
-        style={{ display: 'block', width: '96px', height: 'auto' }}
+        src={`${baseUrl}crest.svg?v=2`}
+        alt="Shizzywang crest"
+        width={78}
+        height={100}
+        style={{
+          display: 'block',
+          width: 'auto',
+          height: '100px',
+          imageRendering: 'pixelated',
+        }}
       />
     </a>
   );
