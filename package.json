@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm run build:cv && vite",
+    "dev": "vite",
     "build:cv": "node build-cv.js",
-    "build": "npm run build:cv && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
