@@ -29,9 +29,9 @@ function CrestHomeLink() {
       <img
         src={`${baseUrl}crest.svg`}
         alt=""
-        width={52}
-        height={52}
-        style={{ display: 'block', width: '52px', height: 'auto' }}
+        width={96}
+        height={71}
+        style={{ display: 'block', width: '96px', height: 'auto' }}
       />
     </a>
   );
